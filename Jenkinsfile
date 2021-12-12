@@ -4,7 +4,7 @@ pipeline{
         stage("git")
         {
             steps{
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/kunal2807/devops_assignment-1'
             }
         }
         stage("copy")
